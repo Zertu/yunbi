@@ -1,7 +1,6 @@
 import getLocalTime from './js/util'
 
 const myChart = echarts.init(document.getElementById('main'))
-
 let option = {
     title : {
         text: '2013年上半年上证指数'
